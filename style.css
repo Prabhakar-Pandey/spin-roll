@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(3109deg);
+        -ms-transform: rotate(3109deg);
+        transform: rotate(3109deg)
+      }
+      90% {
+        -webkit-transform: rotate(6314deg);
+        -ms-transform: rotate(6314deg);
+        transform: rotate(6314deg)
+      }
+      95% {
+        -webkit-transform: rotate(6312deg);
+        -ms-transform: rotate(6312deg);
+        transform: rotate(6312deg)
+      }
+      100% {
+        -webkit-transform: rotate(6313deg);
+        -ms-transform: rotate(6313deg);
+        transform: rotate(6313deg)
+      }
+  }
+  
+  /* The element to apply the animation to */
+
+
+.animateMe{
+    animation-name: spin;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spin1 {
+    0% {
+        -webkit-transform: rotate(3109deg);
+        -ms-transform: rotate(3109deg);
+        transform: rotate(3109deg)
+      }
+      90% {
+        -webkit-transform: rotate(6301deg);
+        -ms-transform: rotate(6301deg);
+        transform: rotate(6301deg)
+      }
+      95% {
+        -webkit-transform: rotate(6299deg);
+        -ms-transform: rotate(6299deg);
+        transform: rotate(6299deg)
+      }
+      100% {
+        -webkit-transform: rotate(6300deg);
+        -ms-transform: rotate(6300deg);
+        transform: rotate(6300deg)
+      }
+  }
+
+.animate1{
+    animation-name: spin1;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spin2 {
+    0% {
+        -webkit-transform: rotate(3109deg);
+        -ms-transform: rotate(3109deg);
+        transform: rotate(3109deg)
+      }
+      90% {
+        -webkit-transform: rotate(6241deg);
+        -ms-transform: rotate(6241deg);
+        transform: rotate(6241deg)
+      }
+      95% {
+        -webkit-transform: rotate(6239deg);
+        -ms-transform: rotate(6239deg);
+        transform: rotate(6239deg)
+      }
+      100% {
+        -webkit-transform: rotate(6240deg);
+        -ms-transform: rotate(6240deg);
+        transform: rotate(6240deg)
+      }
+  }
+
+  @keyframes spin3 {
+    0% {
+        -webkit-transform: rotate(3000deg);
+        -ms-transform: rotate(3000deg);
+        transform: rotate(3000deg)
+      }
+      90% {
+        -webkit-transform: rotate(6361deg);
+        -ms-transform: rotate(6361deg);
+        transform: rotate(6361deg)
+      }
+      95% {
+        -webkit-transform: rotate(6359deg);
+        -ms-transform: rotate(6359deg);
+        transform: rotate(6359deg)
+      }
+      100% {
+        -webkit-transform: rotate(6360deg);
+        -ms-transform: rotate(6360deg);
+        transform: rotate(6360deg)
+      }
+  }
+  .animate3{
+    animation-name: spin3;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spin4 {
+    0% {
+        -webkit-transform: rotate(3109deg);
+        -ms-transform: rotate(3109deg);
+        transform: rotate(3109deg)
+      }
+      90% {
+        -webkit-transform: rotate(6421deg);
+        -ms-transform: rotate(6421deg);
+        transform: rotate(6421deg)
+      }
+      95% {
+        -webkit-transform: rotate(6419deg);
+        -ms-transform: rotate(6419deg);
+        transform: rotate(6419deg)
+      }
+      100% {
+        -webkit-transform: rotate(6420deg);
+        -ms-transform: rotate(6420deg);
+        transform: rotate(6420deg)
+      }
+  }
+  .animate4{
+    animation-name: spin4;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes spin5 {
+    0% {
+        -webkit-transform: rotate(3109deg);
+        -ms-transform: rotate(3109deg);
+        transform: rotate(3109deg)
+      }
+      90% {
+        -webkit-transform: rotate(6481deg);
+        -ms-transform: rotate(6481deg);
+        transform: rotate(6481deg)
+      }
+      95% {
+        -webkit-transform: rotate(6479deg);
+        -ms-transform: rotate(6479deg);
+        transform: rotate(6479deg)
+      }
+      100% {
+        -webkit-transform: rotate(6480deg);
+        -ms-transform: rotate(6480deg);
+        transform: rotate(6480deg)
+      }
+  }
+  .animate5{
+    animation-name: spin5;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes spin6 {
+    0% {
+        -webkit-transform: rotate(3000deg);
+        -ms-transform: rotate(3000deg);
+        transform: rotate(3000deg)
+      }
+      90% {
+        -webkit-transform: rotate(6541deg);
+        -ms-transform: rotate(6541deg);
+        transform: rotate(6541deg)
+      }
+      95% {
+        -webkit-transform: rotate(6539deg);
+        -ms-transform: rotate(6539deg);
+        transform: rotate(6539deg)
+      }
+      100% {
+        -webkit-transform: rotate(6540deg);
+        -ms-transform: rotate(6540deg);
+        transform: rotate(6540deg)
+      }
+  }
+  .animate6{
+    animation-name: spin6;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+
+.animate2{
+    animation-name: spin2;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
